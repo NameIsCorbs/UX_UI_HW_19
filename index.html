@@ -51,7 +51,6 @@
                             </ul>
                         </div>
                     </div>
-                    </a>
                 </div>
                 <div class="nav-btns">
                     <a href="#Portfolio" class="portfolio-btn">Portfolio</a>
@@ -65,9 +64,11 @@
     <!------Hero Info------>
     <section1>
         <header class="hero">
-            <h3 class="hero-title">hello it me</h3>
-            <h1 class="Name">Corbin Grainger</h1>
+            <img src="/images/Dark Mode Design Toggle.png" alt="Design Toggle" class="DesignToggle">
+            <img src="/images/Front Page Text.png" alt="Front Page Text" class="hero-title">
+            <img src="/images/NameIsCorbs Image.png" alt="NameisCorbs" class="CorbsCharacter">
             <p class="hero-subtitle">Like all good contrast, I strive to locate the light within the darkness.</p>
+            <img src="/images/Overlay Background.png" alt="overlay background" class="overlay1">
         </header>
     </section1>
     <!------Profile Pics------>
@@ -213,9 +214,8 @@
         }
       );
     });
-    </script>
+    
 
-<script>
 $(document).ready(function() {
     $(".caseStudyButton1").hover(
     function() {
@@ -250,6 +250,13 @@ $(document).ready(function() {
     }
     );
     });
+
+    $('.social-icons li').hover(function() {
+    $(this).css('color', 'black');
+    }, function() {
+    $(this).css('color', 'white');
+    });
+
     </script>
 
 </html>
