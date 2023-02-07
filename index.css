@@ -71,6 +71,7 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     border-radius: 30px;
     font-family: Satoshi;
+    scroll-behavior: smooth;
   }
   
   .hero {
